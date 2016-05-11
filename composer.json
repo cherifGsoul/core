@@ -1,0 +1,16 @@
+{
+    "name": "cherif/core",
+    "authors": [
+        {
+            "name": "cherif BOUCHELAGHEM",
+            "email": "cherif.bouchelaghem@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+    	"psr-4": {"core\\": "src/core"}
+    },
+    "autoload-dev": {
+    	"psr-4": {"spec\\": "spec/"}
+    }
+}
